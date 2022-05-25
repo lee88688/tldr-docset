@@ -122,6 +122,10 @@ async function generate(pagesName) {
   ])
 }
 
-generate('pages').catch(e => {
-  console.error(e)
-})
+if (process.argv.length < 3) {
+  console.error('need tldr pages name in command line')
+} else {
+  generate(process.argv[2]).catch(e => {
+    console.error(e)
+  })
+}

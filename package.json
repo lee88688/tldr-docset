@@ -4,8 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pages:dev": "vuepress dev ./tldr/pages --config vuepress.config.js",
-    "pages:build": "vuepress build ./tldr/pages --config vuepress.config.js --relative",
     "generate": "node generate.mjs"
   },
   "keywords": [],
