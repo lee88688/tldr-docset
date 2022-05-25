@@ -1,0 +1,5 @@
+[submodule "tldr"]
+	path = tldr
+	url = https://github.com/tldr-pages/tldr.git
+	ignore = dirty
+	active = false
